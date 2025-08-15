@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HelloWorld Dapp</title>
+</head>
+<body>
+    <h1>HelloWorld Blockchain App</h1>
+
+    <button onclick="connectWallet()">Connect Wallet</button>
+    <br><br>
+
+    <button onclick="getMessage()">Get Message</button>
+    <p id="displayMessage"></p>
+
+    <input type="text" id="newMessage" placeholder="Enter new message">
+    <button onclick="setMessage()">Set Message</button>
+
+    <!-- Load Ethers v6 BEFORE your script -->
+    <script src="https://cdn.jsdelivr.net/npm/ethers@6.7.0/dist/ethers.umd.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
+
