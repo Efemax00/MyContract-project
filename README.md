@@ -22,3 +22,28 @@ This project allows users to **connect their Ethereum wallet** and **create/upda
 ---
 
 ## 📂 Project Structure
+MyContract-project/
+│
+├── day-1/
+│ ├── contract/ # Solidity smart contracts
+│ │ └── MyContract.sol
+│ ├── index.html # Frontend HTML
+│ ├── script.js # Frontend JS
+│ └── style.css # Stylesheet
+│
+├── README.md # Project documentation
+└── LICENSE # MIT license
+
+
+---
+
+## 🚀 Installation
+1. Clone the repository  
+2. Open in VS Code  
+3. Install dependencies (if any)  
+4. Run with Live Server  
+
+---
+
+## 📜 License
+This project is licensed under the [MIT License](./LICENSE).
